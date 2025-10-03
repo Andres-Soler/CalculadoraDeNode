@@ -1,0 +1,63 @@
+.calculadora {
+  background: #121212;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #eee;
+}
+
+.Contador {
+  background: #1f1f1f;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  max-width: 360px;
+  width: 100%;
+}
+
+.Contador label {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  display: block;
+  color: #61b8ff;
+  font-weight: 600;
+}
+
+button {
+  background: #333;
+  border: none;
+  border-radius: 10px;
+  color: #eee;
+  font-size: 1.4rem;
+  margin: 8px;
+  padding: 18px 28px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.4);
+}
+
+button:hover {
+  background: #61d2ff;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:last-child {
+  background: #2e62b0;
+}
+
+button:last-child:hover {
+  background: #3a7fd9;
+}
+
+br {
+  margin-bottom: 15px;
+}
